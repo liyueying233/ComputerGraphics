@@ -122,3 +122,28 @@ $$
 ##### 3. Gauss-Jordan find A^(-1)：slove 2 equations at onece
 
 思想：借助增广矩阵，采用消元思想，将[A | I]变为[A | A^(-1)]
+
+
+
+## Lecture4 矩阵A的LU分解
+
+##### 1. Inverse of AB, A^T（网上找下笔记）
+
+$$
+(AB)^{-1}=B^{-1}A^{-1 }\\
+(A^{-1})^TA^T=I=A^T(A^T)^{-1}=AA^{-1}\\\\
+so \ (A^{-1})^T=(A^T)^{-1}
+$$
+
+
+
+##### 2. Product of elimination matrixes A = LU(no rows exchangees)
+
+$$
+E_{32}E_{31}E_{21}A = U(no \ row \ exchanges)\\
+A = E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U = LU 
+$$
+
+##### 3. Transpose and Permutation
+
+置换矩阵个数=n!  
